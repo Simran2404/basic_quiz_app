@@ -5,4 +5,4 @@ Command Line Interface (CLI), is a text-based interface used to interact with th
 
 Instead of normal quiz apps, this gives user the option to select from an array of multiple choices! 
 
-Packages used: Chalk, readline-Sync
+Packages used: Chalk, Readline-Sync
