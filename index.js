@@ -40,6 +40,10 @@ var mcqList=[
   },
 ];
 
+//I'm taking three inputs for the function. An array of list of option for displaying the options to the user, question and the correct answer.
+
+//I;m using another function from the readline-sync package that is readlineSync.keyInSelect() .This function takes two parameters, the list of options to display it to the user and the question. 
+
 
 function quizMcq(listOfAnswers,question,answer){
   let userAnswer = readlineSync.keyInSelect(listOfAnswers, question);
