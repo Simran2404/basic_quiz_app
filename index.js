@@ -11,7 +11,7 @@ var mcqList=[
   {
     array : ['We are Bulletproof', 'Map of the Soul', '2 cool 4 skool', 'Skool love affair'],
     question : 'What was the name of their debut album? ',
-    answer : '2 Cool 4 Skool'
+    answer : '2 cool 4 skool'
   },
   {
     array : ['V', 'RM', 'Suga', 'Jimin'],
