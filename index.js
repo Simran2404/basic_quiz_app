@@ -53,12 +53,13 @@ function quizMcq(listOfAnswers,question,answer){
   } 
   else{
     console.log(chalk.red('You are Wrong.'));
+    console.log('The correct answer was: '+chalk.yellow(answer));
   }
 
   console.log(chalk.cyan('Current Score is: ',score));
 }
 
-for(var i = 0;i < mcqList.length; i++){
+for(let i = 0;i < mcqList.length; i++){
   quizMcq(mcqList[i].array,mcqList[i].question,mcqList[i].answer);
   console.log('_________________________________');
 }
